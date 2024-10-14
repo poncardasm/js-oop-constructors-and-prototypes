@@ -38,7 +38,7 @@ Where OOP really shines and makes sense is when you are building a complex appli
 
 ## Components of OOP
 
-Technically we have created objects many times as we have been using `object literals`. However, I wouldn't call that `OOP`. We've just been using object literals to create a single object and structure data into key/value pairs. With OOP, we create blueprints to create multiple instances of an object. 
+Technically we have created objects many times as we have been using `object literals`. However, I wouldn't call that `OOP`. We've just been using object literals to create a single object and structure data into key/value pairs. With OOP, we create blueprints to create multiple instances of an object.
 
 Now OOP within JavaScript is a bit differen than most languages. A lot of that has to do with the inner mechanics and the browser environment. In JavaScript, we use something called `constructor functions` as well as `prototypes`. With these we can create blueprints to create objects. Most languages use `classes`. JavaScript doesn't use classes in the core language, however, the ES6 update gave us the class syntax. THis is called `syntactic sugar`. So we have the easier to write class syntax, but it's really using constructors and prototypes under the hood. I'm going to show you both ways.
 
@@ -51,7 +51,7 @@ Now OOP within JavaScript is a bit differen than most languages. A lot of that h
 
 Below is an example of a very simple class. I'm not showing you this to teach you the syntax yet, I'm just showing you this to give you some perspective of how OOP works. This class is essentially a blueprint for an object and it includes properties and methods. We can use that blueprint to create what are called `instances` of that object. in this case, users.
 
-![[oop-blueprint-classes.png]]
+![oop-blueprint-classes](images/oop-blueprint-classes.png)
 
 The class alone is just the blueprint. It's useless in our code if we don't use it. You can think of it just like a blueprint for a house. The blueprint is just a piece of paper, it's not a house. We have to use the blueprint to build the house. In this case, the blueprint is for a user and each user is the actual object. We can create as many users as we want using the blueprint.
 
