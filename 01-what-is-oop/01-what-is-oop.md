@@ -51,7 +51,7 @@ Now OOP within JavaScript is a bit differen than most languages. A lot of that h
 
 Below is an example of a very simple class. I'm not showing you this to teach you the syntax yet, I'm just showing you this to give you some perspective of how OOP works. This class is essentially a blueprint for an object and it includes properties and methods. We can use that blueprint to create what are called `instances` of that object. in this case, users.
 
-![oop-blueprint-classes](images/oop-blueprint-classes.png)
+![oop-blueprint-classes](../images/oop-blueprint-classes.png)
 
 The class alone is just the blueprint. It's useless in our code if we don't use it. You can think of it just like a blueprint for a house. The blueprint is just a piece of paper, it's not a house. We have to use the blueprint to build the house. In this case, the blueprint is for a user and each user is the actual object. We can create as many users as we want using the blueprint.
 
