@@ -67,7 +67,7 @@ console.log(rect1);
 
 As you can see, we now have 2 methods in addition to the `constructor`.
 
-<img src="images/rect-prototype2.png" width="500">
+![rect-prototype2](../images/rect-prototype2.png)
 
 Also, notice that it inherits `Object.prototype`.
 
