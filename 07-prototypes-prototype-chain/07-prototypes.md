@@ -14,7 +14,7 @@ We've used many prototype methods in the previous lessons. For instance, when we
 
 Open your browser console and create an object. It can be empty. Then type the variable name and hit `enter`
 
-<img src="images/object-proto.png" width="400">
+![object-proto](../images/object-proto.png)
 
 you will see that it has a `Prototype` property. This is the prototype of the object. If you create an array or a function, it will also have a `Prototype` property. Everything in JS is an object and every object has a prototype (which is also an object).
 
